@@ -1,0 +1,29 @@
+.input {
+  display: inline-block;
+  box-sizing: content-box;
+  margin: 0 0 20px;
+  padding: 10px;
+  border: 1px solid #b7b7b7;
+  border-radius: 3px;
+  font: normal 16px/normal "Times New Roman", Times, serif;
+  color: aqua;
+  text-overflow: clip;
+  background: rgba(252,252,252,1);
+}
+
+code {
+  box-sizing: content-box;
+  padding: 6px 4px;
+  overflow: hidden;
+  border: none;
+  font: normal 16px/1 "Times New Roman", Times, serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  text-overflow: ellipsis;
+  background: #0199d9;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+}
+
+body {
+  font: normal 14px/1 "Times New Roman", Times, serif;
+}

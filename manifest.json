@@ -1,0 +1,13 @@
+{
+  "name": "BLT EN/DE-CODER",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "ĐQT 2018 ©",
+  "homepage_url": "http://fb.com/grim.reaper.slave",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "BLT En/De-coder",
+    "default_popup": "/index.html"
+  },
+  "content_security_policy": "script-src 'self' object-src 'self'"
+}
