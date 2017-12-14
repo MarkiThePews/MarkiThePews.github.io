@@ -1,4 +1,4 @@
-# MarkiThePews.github.io
+# BLT En/De-coder
 Hướng dẫn dùng mã hóa:
 
 Cách 1) Truy cập https://MarkiThePews.github.io/ và dùng online ngay trên trình duyệt!
