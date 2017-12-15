@@ -16,13 +16,16 @@ $(document).ready(function() {
 function doEncoding(data, decode, write) {
     kq = "";
     if(decode) {
-      kq = data.replace(/([0-9a-fA-F]{2})/g,function(match) { return String.fromCharCode(parseInt(match,16))});
+      kq = data.replace(/([0-7]{3})/g,function(match) { return String.fromCharCode(parseInt(match,8))});
     } else {
       for(i=0; i < data.length; i++)
       {
-        kq += data[i].charCodeAt(0).toString(16);
+        binchar = data[i].charCodeAt(0).toString(8);
+        for(j = 3 - binchar.length; j > 0; j--) {
+          binchar = "0" + binchar;
+        }
+        kq += binchar ;
       }     
     }
-  }
   write(kq);
 }
